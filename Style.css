@@ -1,0 +1,32 @@
+html,body{
+    background-color: #353b48;
+    height: 100%;
+    margin: 10px;        
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.container>div:nth-child(1n){
+    background-color: #fbc531;
+}
+.container>div:nth-child(2n){
+    background-color: #9c88ff;
+}
+.container>div:nth-child(3n){
+    background-color: #00a8ff;
+}
+.container>div:nth-child(4n){
+    background-color: #44bd32;
+}
+.container>div:nth-child(5n){
+    background-color: #40739e;
+}
+.container>div:nth-child(6n){
+    background-color: #273c75;
+}
+.container>div:nth-child(7n){
+    background-color: #e84118;
+}
